@@ -1,7 +1,49 @@
-html {
+title {
+  text-align: center;
+}
+
+header {
+  text-align: center;
+}
+
+body {
   background-color: darkgray;
   color: black;
 }
-a {
+
+ul {
+  list-style: none;
+  text-align: center;
+  border-top: 3px black;
+  border-bottom: 3px black;
+}
+
+ul.github {
+  list-style: none;
+  text-align: left;
+}
+
+ul li {
+  display: inline;
+  text-transform: uppercase;
+  padding: 20px;
+  letter-spacing: 10px;
+}
+
+li.github {
+  text-align: left;
+  letter-spacing: normal;
+}
+
+li a {
+  text-decoration: none;
   color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: double;
 }
