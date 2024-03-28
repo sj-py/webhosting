@@ -18,7 +18,7 @@ ul {
   border-bottom: 3px black;
 }
 
-ul.github {
+ol.github {
   list-style: none;
   text-align: left;
 }
