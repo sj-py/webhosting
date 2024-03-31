@@ -1,33 +1,53 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>To Upload From Local To GitHub</title> 
+        <title>깃헙으로 업로드</title> 
         <meta charset="utf-8">
         <link rel="stylesheet" href="../../style.css" type="text/css">
+        <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&family=Nanum+Pen+Script&family=Pacifico&display=swap" rel="stylesheet">
     </head>
     <body>
-        <b>How to upload from local</b><br>
-        When you upload for the first time<br>
-        1. Setting GitHub<br>
-        git config --global user.name "your_name"<br>
-        git config --global user.email "your_email"<br>
-        2. Check<br>
-        git config --list<br>
-        3. Init GitHub<br>
-        git init<br>
-        git add .<br>
-        .(dot) means all files<br>
-        git status<br>
-        git commit -m "your_message"<br>
-        git remote add origin your_repository_address<br>
-        git remote -v<br>
-        git push origin master<br>
-        <a href="https://hackmd.io/@oW_dDxdsRoSpl0M64Tfg2g/ByfwpNJ-K">
-            if you don't know visit this site
-        </a><br><br>
-        When you upload<br>
-        1. git add .<br>
-        2. git commit -m "your_message"<br>
-        3. git push origin master<br>
+        <header>
+            <b>내 컴퓨터에서 깃헙으로 업로드하는 방법</b><br>
+        </header>
+        <main>
+            <dl>
+                <dt>처음 업로드 할 때</dt>
+                <dd>1. 깃헙 셋팅</dd>
+                <ol>
+                    <li class="upload">git config --global user.name "your_name"</li>
+                    <li class="upload">git config --global user.email "your_email"</li>
+                </ol>
+                <dd>2. 깃헙 셋팅 확인</dd>
+                <ol>
+                    <li class="upload">git config --list</li>
+                </ol>
+                <dd>3. 깃헙 초기화 및 업로드</dd>
+                <ol>
+                    <li class="upload">git init</li>
+                    <li class="upload">git add .<br>.(점)은 모든 파일을 뜻한다.</li>
+                    <li class="upload">git status</li>
+                    <li class="upload">git commit -m "your_message"</li>
+                    <li class="upload">git remote add origin your_repository_address</li>
+                    <li class="upload">git remote -v</li>
+                    <li class="upload">git push origin master</li>
+                </ol>
+                <a href="https://hackmd.io/@oW_dDxdsRoSpl0M64Tfg2g/ByfwpNJ-K">
+                    if you don't know visit this site
+                </a><br><br>
+            <dl>
+                <dt>다시 업로드 할 때</dt>
+                <dd>1. 깃헙 업로드</dd>
+                    <ol>
+                        <li class="upload">git add .</li>
+                        <li class="upload">git commit -m "your_message"</li>
+                        <li class="upload">git push origin master</li>
+                    </ol>
+            </dl>
+        </main>
+        <footer>
+            <p>this site is created by &copy;KSJ</p>
+            <p><a href="https://github.com/world-traveler-jin">GitHub Profile</a></p>
+        </footer>
     </body>
 </html>
